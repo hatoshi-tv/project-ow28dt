@@ -1,0 +1,307 @@
+
+### SECTION A: PROJECT DEFINITION & APPLICATION
+
+**A1. What is the prime mission of this engine?**  
+*(e.g., dedicated track-day car, street-legal sports car, light aircraft, generator set, marine auxiliary, motorsport formula with specific regulations)*
+ANSWER: daily use automobile with rally genes.
+**A2. Vehicle/platform description:**  
+- Type (coupe, sedan, SUV, formula car, motorcycle, aircraft)
+ANSWER: coupe or fastback  
+- Drive wheels and layout (FWD, RWD, AWD, mid-engine, pusher, etc.)
+ANSWER: RWD or AWD  
+- Target vehicle curb weight (if known)
+ANSWER:1200-1350kgs  
+- Aerodynamic drag and frontal area (if available)
+ANSWER: Drag Coefficient around 0.26-0.30, frontal area 1.80-1.90meters squared
+**A3. Is the engine intended for an existing vehicle (repower/swap) or a clean-sheet design?**  
+If existing, provide available engine bay dimensions and hard points.
+ANSWER: most likely custom vehicle made around the engine, 85-90 cm width of engine bay (frame rails) this is undecided* 
+
+**A4. Expected annual production volume:**  
+*(Prototype 1–10 units; low volume 100–1,000; mass market 100,000+)*  
+This determines manufacturing processes and cost constraints.
+ANSWER: not meant for mass production, exclusive. output value 1.
+**A5. Target unit manufacturing cost (ex-factory):**  
+*(Direct materials, labor, burden. If unknown, state a range or benchmark competitor.)*
+ANSWER: cost is irrelevant for now, this is undecided*
+**A6. Project timeline:**  
+- When must the first prototype fire?  
+ANSWER: this is undecided*
+- Target start of production or installation?
+ANSWER: this is undecided
+---
+
+### SECTION B: PERFORMANCE TARGETS
+
+**B1. Full-load power & torque objectives:**  
+- Peak power: _______ kW (or hp) at _______ RPM -> will need to be calculated*
+- Peak torque: _______ Nm at _______ RPM  -> will need to be calculated*
+- Redline RPM (fuel cut-off): 8000 RPM  
+- Idle speed target: 750-900 RPM
+
+**B2. Torque curve shape requirements:**  
+Do you require a "flat" torque plateau (e.g., from 2000–5000 RPM) or a peaky high-RPM character?
+ANSWER: engine is designed with rally genes, high rpm more suitable, though needs high torque output, this is undecided*  
+State minimum acceptable torque at 2000, 3000, 4000 RPM.
+ANSWER: will need to be calculated*
+
+**B3. Specific output targets:**  
+- Target BMEP at peak torque: _______ bar -> will need to be calculated* 
+- Target specific power: _______ kW/L (or hp/L) -> will need to be calculated*
+
+**B4. Transient response:**  
+- Time from 10% to 90% of peak torque at 2000 RPM (in selected gear): _______ seconds -> will need to be calculated* 
+- Acceptable turbo lag (if turbocharged)? Describe qualitatively or quantitatively.
+ANSWER: turbo system should have a system to engage, like Porsche's "E-turbo"
+
+**B5. Fuel efficiency map targets:**  
+- Minimum BSFC at best point: _______ g/kWh  
+- Part-load BSFC at 2000 RPM, 2 bar BMEP (highway cruise): _______ g/kWh  
+- Part-load BSFC at 3000 RPM, 8 bar BMEP (typical acceleration): _______ g/kWh
+-> all of these must also be calculated.
+**B6. Fuel economy/range requirement (if vehicle integration known):**  
+e.g., "Must achieve 5.0 L/100 km on WLTP cycle" or "5 hours endurance at 75% power on 100 L tank."
+-> engine does not try to be economic, possibly eco mode addon, this is undecided*
+**B7. Altitude and ambient capability:**  
+- Maximum operating altitude without derate: _______ m  
+- Cold start requirement: _______ °C  
+- Hot ambient operational limit: _______ °C
+-> unfortunately not acknowledged about these parameters.
+---
+
+### SECTION C: PHYSICAL CONSTRAINTS & PACKAGING
+
+**C1. Engine configuration:**  
+- Cylinder arrangement (I4, V6, V8, flat-4, rotary, etc.)
+ANSWER: flat 6, boxer to be precise.  
+- If not yet decided, list viable options and key trade-offs to evaluate.
+
+**C2. Maximum allowable external dimensions (the "box"):**  
+- Length (crank pulley to flywheel face): 60-70 cm  
+- Width (overall, including manifolds/turbo): 60-70 cm  
+- Height (oil pan to top of intake/cover): 50~ cm (reduced due to flat-6)  
+- *Sketch or reference coordinate system if possible.*
+
+**C3. Mass budget:**  
+- Maximum dry engine mass (fully dressed without fluids): 180-200 kg  
+- Target mass: less than 220~ kg  
+- Any specific mass allocation for major subsystems (block, head, crank, etc.)?
+ANSWER: engine should have a very balanced center of mass, not causing disruptions to handling etc.
+**C4. Center of gravity constraints:**  
+Desired CG location relative to crankshaft centerline or mounting face.
+ANSWER: similar to that of a Subaru Impreza 555
+
+**C5. Mounting interfaces:**  
+- Number and position of engine mounts (hard points in vehicle)
+-> this is totally custom, possibly 2-4  
+- Transmission bellhousing pattern/standard (e.g., SAE #3, manufacturer-specific)
+-> Also custom, could use transmissions from existing cars.
+- Starter motor location constraints
+-> Custom built, could use starter motors from existing cars.
+**C6. Service and maintenance clearances:**  
+List items that must be serviceable with engine in situ (spark plugs, oil filter, belts, injectors). State specific tool access requirements.
+->Must be serviceable after reading the manual by the owner, possibly with the help of one more person.
+---
+
+### SECTION D: FUEL & COMBUSTION SYSTEM
+
+**D1. Primary fuel type:**  
+(Gasoline, diesel, E85, methanol, CNG, hydrogen, flex-fuel)  
+Specify octane rating or cetane number.
+->95 RON, euro 5 standard.
+**D2. Ignition/combustion:**  
+- Spark ignition (SI) or compression ignition (CI)?
+-> Gasoline engine, so naturally, spark ignited.  
+- If SI: port fuel injection (PFI), direct injection (GDI), or combined?
+-> total direct fuel injection.  
+- If diesel: common rail, unit injector?  
+- Are you considering advanced concepts (pre-chamber jet ignition, turbulent jet ignition, lean burn, HCCI)?
+-> this is undecided.
+**D3. Compression ratio:**  
+- Geometric compression ratio target or range to be studied: ______
+-> this needs to be calculated.  
+- Are you limited by knock, and what is the limiting fuel's knock index? (e.g., RON 98, MON 87, AKI 93)
+->RON 95 as stated before.
+**D4. Exhaust emissions standards to meet:**  
+(e.g., Euro 7, EPA Tier 3, CARB LEV III, no requirement)  
+List specific limits for CO, HC, NOx, PM/PN over the applicable drive cycle.
+-> Euro 5 emission standards must be passed in all circumstances.
+**D5. Aftertreatment architecture assumed:**  
+(TWC, GPF, DPF, SCR, LNT – state if any are forbidden or mandatory.)
+-> this is undecided*
+**D6. Combustion system development strategy:**  
+- Will you start with a single-cylinder research engine?
+-> if required to, we will.  
+- Target swirl/tumble ratio and combustion duration (10-90% burn) in degrees crank angle.
+-> this needs to be calculated.
+---
+
+### SECTION E: AIR HANDLING & BOOSTING
+
+**E1. Naturally aspirated or boosted?**  
+If boosted, specify type: single turbo, twin-scroll turbo, sequential turbos, supercharger, or electric-assisted (eM Turbo).
+->1 turbo for each bank. twin turbo, electric assisted as stated before.
+**E2. Boost pressure target:**  
+Absolute manifold pressure at peak torque: _______ bar(a)  
+-> this needs to be calculated.
+What is the maximum allowable exhaust backpressure before EGR effects dominate?
+-> this needs to be calculated.
+**E3. Charge air cooling:**  
+- Air-to-air or water-to-air intercooler?
+-> this is undecided*  
+- Target intake manifold temperature at rated power, ambient = 25°C: _______ °C
+-> this is also undecided
+**E4. EGR strategy:**  
+- High-pressure (short-route), low-pressure (long-route), both, or none?
+->this is undecided*  
+- Cooled or uncooled?
+->undecided  
+- Target EGR rate at key operating points.
+->undecided
+**E5. Air intake system constraints:**  
+- Maximum pressure drop from air filter to compressor inlet at full flow: ______ kPa  
+->needs to be calculated.
+- Available space for intake duct and airbox.
+->custom.
+---
+
+### SECTION F: LUBRICATION & COOLING
+
+**F1. Oil type and temperature requirements:**  
+- Recommended viscosity grade (e.g., 0W-20, 5W-40)
+->custom, could use any.  
+- Maximum oil temperature (sump): _______ °C
+->needs to be calculated.  
+- Minimum oil pressure at hot idle: _______ bar
+->needs to be calculated.
+**F2. Oil pump:**  
+Fixed displacement, variable displacement, or electric?
+->undecided  
+Target parasitic power at max engine speed.
+->custom
+**F3. Cooling system:**  
+- Coolant type (water/glycol, Evans waterless)
+->OAT/HOAT, Evans is unnecessary.  
+- Maximum coolant outlet temperature: _______ °C
+->undecided  
+- Radiator heat rejection capability available (if known): _______ kW at _______ °C air-to-coolant delta.
+->undecided
+**F4. Thermal management preference:**  
+(Electric water pump, map-controlled thermostat, split cooling circuits for head and block)  
+Which corners of the head/block do we worry about for hotspot formation?
+->do not know enough to say.
+---
+
+### SECTION G: DURABILITY & LIFECYCLE
+
+**G1. Design life:**  
+- Hours at full load: ______  
+- Equivalent road miles (if automotive): ______  
+- Number of thermal cycles from cold start to operating temperature: ______
+->these are irrelevant for now.
+**G2. Duty cycle severity:**  
+Define the fraction of time spent at various conditions (e.g., 10% at full power, 40% at 50% load, 50% at idle/low load). We need this for fatigue analysis.
+->irrelevant
+**G3. Major component replacement intervals:**  
+- Piston and ring life: ______ hours/miles  
+- Bearing life (if a service item)  
+- Timing drive (belt/chain) replacement interval  
+- Turbocharger overhaul interval
+->also irrelevant
+**G4. Abuse/overspeed capability:**  
+Must the engine survive an accidental downshift to 20% over-redline?  
+Minimum time at full load/peak cylinder pressure without damage: ______ minutes.
+->the engine should be able to take a beating, critical errors shouldn't wreck it.
+---
+
+### SECTION H: NVH & DRIVETRAIN INTEGRATION
+
+**H1. Vibration targets:**  
+- Acceptable free forces and moments (can be balanced with shafts?)
+-> engine should be as balanced as possible, sacrifices can be made in order to do so.
+- Target idle vibration amplitude at steering wheel/seat rail.
+-> needs to be calculated.
+
+**H2. Sound quality:**  
+- Any specific goals (e.g., "refined and quiet", "aggressive intake growl", "no distinct 4-cylinder boom")
+-> no need for any specific sounds.  
+- Exhaust noise limit (static dB(A) or drive-by pass-by noise limit).
+-> just pass Euro 5.
+**H3. Flywheel and clutch:**  
+- Single mass or dual mass flywheel?
+->undecided  
+- Clutch diameter and torque capacity required.
+->needs to be calculated
+**H4. Starter and charging:**  
+- 12V or 48V mild hybrid?
+->12V  
+- Starter power, alternator output, list any high-load electrical accessories.
+->like any other standard automobile engine.
+---
+
+### SECTION I: MANUFACTURING & MATERIALS PREFERENCE
+
+**I1. Block material:**  
+(Cast iron compacted graphite, aluminium with liners, parent bore aluminium with coating)  
+Are you open to billet machining for prototyping?
+->undecided, can compromise.
+**I2. Head material:**  
+Aluminium alloy preferred? Any high-temperature alloy needed (e.g., Ni-resist exhaust seats)?
+->same here
+**I3. Forging vs. casting vs. billet preferences for moving parts:**  
+Crank, rods, pistons – state production intent (volume dependent).
+->same here
+**I4. Bearing shell type:**  
+Tri-metal, bi-metal, or lead-free? Target bearing material and overlay.
+->same here
+**I5. Fastener specification standard:**  
+ISO, DIN, or specific company standard. Any preference for thread-locking/torque-to-yield fasteners?
+->dont know enough
+**I6. In-house manufacturing capabilities or supplier network:**  
+(Do you have access to a 5-axis CNC, flow bench, engine dyno, CMM? Which processes will be outsourced?)
+-> Chinese suppliers, basically everything.
+---
+
+### SECTION J: ENGINE MANAGEMENT & CONTROLS
+
+**J1. ECU selection:**  
+- Full authority aftermarket (Motec, Life Racing, Bosch MS, Emtron)  
+- Production-grade (Bosch MEVD, Continental)  
+- Open-source (Speeduino, RusEFI)  
+- Will you develop custom control strategies?
+->Can make custom, or anything in between.
+**J2. Sensor suite required for development vs. production:**  
+List desired instrumentation: knock sensors (number and type), cylinder pressure transducers (for R&D), wideband lambda (per bank or per cylinder), EGT probes (per cylinder or turbine inlet), turbo speed sensor, etc.
+-> nothing in mind, undecided
+
+**J3. Diagnostics and OBD:**  
+Is OBD-II compliance required? If not, what level of on-board fault detection?
+-> custom fault detection is good enough.
+---
+
+### SECTION K: REGULATORY & HOMOLOGATION
+
+**K1. Any specific racing or type-approval regulations the engine must satisfy?**  
+(FIA Group N, Formula SAE limits, marine classification society rules, etc.)  
+Please provide the relevant rulebook sections.
+->not meant for racing, yet.
+**K2. On-board fire suppression or containment requirements?**  
+(E.g., FIA fuel system crash shutoff, burst panel if supercharged, etc.)
+->undecided, safety features important.
+---
+
+### SECTION L: OPEN REMARKS & CONSTRAINTS
+
+**L1. Are there any "untouchable" design boundaries?**  
+*(e.g., "must use factory engine block from a 2.0L EA888 for cost reasons," "cannot exceed 7500 RPM due to current valve spring technology," "must run on pump 91 octane").*
+->Will make a list as we go through.
+
+**L2. What is the single biggest technical risk you foresee?**  
+(We'll place this at the top of our risk register.)
+-> Cost.
+**L3. List your available analysis and test resources:**  
+(Software licenses for GT-Power, Converge, Abaqus; access to a university flow bench, prototype foundry, engine dyno shop.)
+-> Physically? Nothing, basically. Digitally? CAD and CAE are accessible.
+---
+
+Please take your time. Fill in everything you can. For any field you’re uncertain of, write **"TBD – needs study"**. Every "TBD" becomes a named action item in our Decision Log. Once you return this, we'll begin with a top-down feasibility check and a hand-calc specification sheet that translates these requirements into a first estimate of displacement, bore, stroke, and turbocharger sizing.
